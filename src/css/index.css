@@ -1,0 +1,81 @@
+.image {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.imagePage {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    position: absolute;
+    width: 250px;
+    filter: drop-shadow(1px 1px 1px #ffffff);
+    top: 3px;
+    left: -25px;
+}
+
+.header {
+    background: rgb(0,0,0);
+    background: linear-gradient(356deg, rgba(0,0,0,1) 0%, rgb(2, 0, 28) 100%);
+    margin: 10px 5px 10px 5px;
+    border-radius: 0;
+    height: 50px;
+}
+
+.title {
+    color: blanchedalmond;
+    font-size: xx-large;
+}
+
+.button_left {
+    position: absolute;
+    top: 30%;
+    left: 150px;
+}
+
+.button_right {
+    position: absolute;
+    top: 30%;
+    right: 150px;
+}
+
+.tab-name {
+    background-color: black !important;
+    color: whitesmoke;
+}
+
+.table tr:nth-child(even) {
+    background-color: #373b3e;
+    color: antiquewhite;
+}
+
+.table tr:nth-child(odd) {
+    background-color: #212529;
+    color: aliceblue;
+}
+
+.titleTable {
+    align-items: center;
+    padding: 0 100px;
+}
+
+h2 {
+    border-radius: 20px 20px 0 0;
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+    width: 300px;
+    height: 40px;
+    margin: 0.4px;
+}
+
+.elonMusk {
+    position: absolute;
+    top: 50%;
+    margin-left: -250px;
+    width: 50px;
+    left: 50%;
+}
